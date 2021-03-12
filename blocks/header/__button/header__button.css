@@ -1,0 +1,22 @@
+.header__button {
+  width: 112px;
+  height: 48px;
+  border: 1px solid #000;
+  padding: 0;
+  border-radius: 27px;
+  margin-left: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  background-color: transparent;
+}
+
+.header__button::before {
+ content: "";
+ height: 24px;
+ width: 24px;
+ background-image: url(../../../images/button-icon.png);
+}
